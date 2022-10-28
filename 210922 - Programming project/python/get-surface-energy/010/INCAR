@@ -1,0 +1,40 @@
+general:
+  SYSTEM =   alloy-surf
+  ISTART =   0     # 0: new, 2: read WC         
+  ICHARG =   2     # 0: WC , 1: CHGCAR, 2: new  
+  GGA    =  PE     # PE: PBE
+  ISPIN  =   1     # No spin. To include if needed.
+
+electronic steps:  
+  ENCUT  = 450     # [eV] 
+  EDIFF  =   1E-5  # [eV]
+  ISMEAR =   0
+  SIGMA  =   0.03  # [eV]
+  ALGO   =   Fast
+  LREAL  =   Auto
+  NELM   = 100     # 40
+  NELMIN =   5     # 2
+  NELMDL =  -7     # 1 from the second run 
+  AMIX   =   0.10  
+  BMIX   =   3.00  
+  AMIN   =   0.01
+
+ionic steps:       
+  IBRION =   1         
+  EDIFFG =  -3E-2  #
+  POTIM  =   0.150 #                  
+  NFREE  =   2     #
+  NSW    = 200     #
+
+dipole correction:  
+  LDIPOL =   T      
+  IDIPOL =   3  
+
+files to write:                                        
+  LWAVE  =   F     # WAVECAR not printed. 
+  LCHARG =   F     # CHG / CHGCAR not printed. To change for charge analysis
+  LAECHG =   F     # Partial charge not printed. To change for bader charge analysis.
+  NWRITE =   0
+
+parallelization
+KPAR = 1 ; NPAR = 12 ; NBANDS = 408 ;

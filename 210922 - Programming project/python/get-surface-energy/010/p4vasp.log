@@ -1,0 +1,38 @@
+STATUS:Searching for applets
+STATUS:Creating menu items
+MSG   :Add menu Edit::New
+MSG   :Add menu Structure::Window
+MSG   :Add menu Structure::Control
+MSG   :Add menu Electronic::DOS + bands
+MSG   :Add menu Electronic::Local DOS+bands control
+MSG   :Add menu Edit::Builder
+MSG   :Add menu Database::Commit
+MSG   :Add menu Database::Query
+MSG   :Add menu Electronic::Dielectric function
+MSG   :Add menu Edit::Edit sub-Z-matrix
+MSG   :Add menu Convergence::Energy
+MSG   :Add menu Structure::Export
+MSG   :Add menu Convergence::Forces
+MSG   :Add menu Edit::Info
+MSG   :Add menu Electronic::View k-points
+MSG   :Add menu Structure::Lattice
+MSG   :Add menu Electronic::Local potential
+MSG   :Add menu Structure::Measure
+MSG   :Add menu Edit::Move atoms
+MSG   :Add menu Edit::Multiply cell
+MSG   :Add menu Edit::Rotate atoms
+MSG   :Add menu Electronic::STM Window
+MSG   :Add menu Electronic::STM Control
+MSG   :Add menu Convergence::Selected forces
+MSG   :Add menu Structure::Show/hide atoms
+MSG   :Add menu Structure::Show (old)
+MSG   :Add menu MD::VAC
+STATUS:Initializing toolbar buttons
+STATUS:Initializing selection applet
+STATUS:reading POSCAR
+STATUS:loading setup
+ERROR : Can not read setup.xml
+STATUS:setup loaded
+STATUS:reading vasprun.xml
+STATUS:reading vasprun.xml OK
+STATUS:OK

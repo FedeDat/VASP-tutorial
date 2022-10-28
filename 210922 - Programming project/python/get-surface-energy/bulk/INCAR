@@ -1,0 +1,37 @@
+general:
+ SYSTEM =   bulk  # Put here the name of you system 
+ ISTART =   0     # 0: new calculation, 2: read a previously generated WC
+ ICHARG =   2     # 0: WC , 1: CHGCAR read from a previous calculation, 2: new calculation
+ GGA    =   PE    # PE: PBE; pseudopotential you are using
+ ISPIN  =   1     # No spin
+
+electronic steps:
+ ENCUT  = 450     # Energy cutoff. Higher because you want the bulk to be fully converged.
+ EDIFF  =   1E-6  # Threshold for energy difference between electronic steps / eV
+ ISMEAR =   0     # Fermi smearing
+ SIGMA  =   0.03  # Sigma
+ ALGO   =   Fast  # Algorithm for electronic convergence
+ LREAL  = Auto    # Parameter for electronic convergence
+ NELM   = 100     # 40 Maximum number of electronic steps
+ NELMIN =   5     #  2 Minimum number of electronic steps
+ NELMDL =  -7     # -5 Minimum number of self-consistant electronic steps
+ AMIX   =   0.10  # Converge parameters -> NOT TO BE CHANGED
+ BMIX   =   0.01  # Converge parameters -> NOT TO BE CHANGED
+ AMIN   =   0.10  # Converge parameters -> NOT TO BE CHANGED
+
+ionic steps:
+ IBRION =   2     # Overall minimum of energy
+ ISIF   =   3     # Relaxation of atoms positions, cell shape and cell volume
+ POTIM  =   0.15  # [Å²/eV] IBRION=3 & C-H-O: 0.017 # Ionic step for relaxation 
+ EDIFFG =  -0.020 # [eV/Å ] relaxation: -0.015; neb: -0.050 Threshold for ionic step convergence
+ NSW    = 100     # Maximum number of ionic steps allowed
+ NFREE  = 2      # Ion displaced both in positive and negative direction: x +- dx
+
+files to write:
+ LWAVE  = F      # Not printing wavecar
+ LCHARG = F	  # Not printing CHGCAR	
+ NWRITE = 0      # Low verbosity of OUTCAR
+ LAECHG = F      # Not printing input for Bader charges analysis
+ 
+parallelization
+KPAR = 1 ; NPAR = 12 ; NBANDS = 60 ; # Parallelization flags! To be changed!!!
