@@ -11,6 +11,6 @@ The course consists of 5 classes:
  (5) Additional class (https://youtu.be/ot9JmNC-UpE) covering an introduction to Blender (https://www.blender.org/), open-source rendering software.
 
 Each class includes 
- (a) notes and hands-on exercises provided by the VASP team; 
+ (a) notes and hands-on exercises provided by the VASP support team; 
  (b) additional notes prepared by Dr. Federico Dattila; 
  (c) additional material provided by Dr. Federico Dattila (when applicable).
