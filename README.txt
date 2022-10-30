@@ -7,7 +7,7 @@ The course consists of 5 classes:
  (1) First class covering VASP handson 1 (https://youtu.be/GdaA8y2l-hw) and related tutorial (https://youtu.be/iMPbEImDGlg);
  (2) Second class covering VASP handson 2 (https://youtu.be/ZLqVEVwZmkY) and related tutorial (https://youtu.be/YyuFrppO_9g); 
  (3) Third class covering VASP handson 3 (https://youtu.be/aV_dNwFq7QE) and related tutorial (https://youtu.be/mxQ14gX_C0Y);
- (4) Fourth class covering VASP handson 4 (https://youtu.be/xY1oFCHlyVU), related tutorial (https://youtu.be/aV_dNwFq7QE), and tips on python and bash programming;
+ (4) Fourth class covering VASP handson 4 (https://youtu.be/xY1oFCHlyVU), related tutorial (https://youtu.be/YFmBUJ3FHQI), and tips on python and bash programming;
  (5) Additional class (https://youtu.be/ot9JmNC-UpE) covering an introduction to Blender (https://www.blender.org/), open-source rendering software.
 
 Each class includes 
