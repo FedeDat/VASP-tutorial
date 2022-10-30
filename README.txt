@@ -1,6 +1,6 @@
 # VASP-tutorial
 Introductory course on the applications of the Vienna Ab Initio Simulation package to electrochemical systems. 
-All video classes are available at: https://www.youtube.com/playlist?list=PLN_Wp4_IX03DMW5VdEu75ZrzIogryzEcS.
+All video classes are available at: https://youtube.com/playlist?list=PLN_Wp4_IX03DMW5VdEu75ZrzIogryzEcS.
 Given by Dr. Federico Dattila (federico.dattila@polito.it) at the Institute of Chemical Research of Catalonia during September 2021.
 
 The course consists of 5 classes:
